@@ -157,7 +157,7 @@
       </activation>
       <build>
         <plugins>
-          <plugin>
+<!--          <plugin>
             <groupId>org.sonatype.plugins</groupId>
             <artifactId>munge-maven-plugin</artifactId>
             <version>1.0</version>
@@ -184,7 +184,7 @@
                 </configuration>
               </execution>
             </executions>
-          </plugin>
+          </plugin>-->
           <!--
            | Package the no-AOP build with its own OSGi manifest and attach using "no_aop" classifier
           -->
