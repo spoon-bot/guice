@@ -453,7 +453,6 @@ See the Apache License Version 2.0 for the specific language governing permissio
       </activation>
       <!-- Activate jdk8-tests module only under JDK 8 -->
       <modules>
-        <module>jdk8-tests</module>
       </modules>
       <!-- Disable doclint under JDK 8 -->
       <reporting>
