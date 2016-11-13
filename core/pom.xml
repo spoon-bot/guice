@@ -188,7 +188,7 @@
           <!--
            | Package the no-AOP build with its own OSGi manifest and attach using "no_aop" classifier
           -->
-          <plugin>
+<!--          <plugin>
             <artifactId>maven-jar-plugin</artifactId>
             <executions>
               <execution>
@@ -206,7 +206,7 @@
                 </configuration>
               </execution>
             </executions>
-          </plugin>
+          </plugin>-->
         </plugins>
       </build>
     </profile>
